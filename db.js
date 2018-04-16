@@ -1,0 +1,2 @@
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://laurenziello:adriano83@cesare-shard-00-00-qi1yp.mongodb.net:27017,cesare-shard-00-01-qi1yp.mongodb.net:27017,cesare-shard-00-02-qi1yp.mongodb.net:27017/pwa?ssl=true&replicaSet=Cesare-shard-0&authSource=admin');
